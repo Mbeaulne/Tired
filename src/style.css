@@ -1,0 +1,38 @@
+:root {
+  font-family: system-ui, sans-serif;
+  color: #e0e4e3;
+  background: #3b4344;
+  color-scheme: dark;
+}
+
+html,
+body,
+#game {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+#game {
+  position: relative;
+}
+
+canvas {
+  display: block;
+}
+
+#status {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  margin: 0;
+  padding: 24px;
+  font-size: 14px;
+  text-align: center;
+}
+
+#status[hidden] {
+  display: none;
+}
