@@ -29,6 +29,16 @@ the official `main` branch to that account. `CODEOWNERS` routes review requests
 to Mbeaulne; repository rules enforce merge access. Contributors work through
 forks and pull requests.
 
+The active [owner-only update rule](https://github.com/Mbeaulne/Tired/rules/24461565)
+allows Mbeaulne to merge pull requests and publish their own changes directly.
+A separate [history rule](https://github.com/Mbeaulne/Tired/rules/24461593)
+blocks force pushes and deletion of `main`, with no bypass actors. Automatic
+merging is disabled.
+
+On 2026-10-04, the published files and MIT license were verified, both rulesets
+were confirmed active on `main`, and GitHub reported no `CODEOWNERS` errors.
+The initial prototype also passed its build and all four browser checks.
+
 ## License
 
 Project contributions are provided under the [MIT license](LICENSE). Submit
